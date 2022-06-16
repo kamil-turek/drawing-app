@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #f3f3f3;
+  overflow: hidden;
+  padding-top: 2rem;
+  min-width: 110rem;
+
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#canvas {
+  background-color: #fff;
+  border: 2px solid #000;
+}
+
+.tools {
+  display: flex;
+  align-items: center;
+  font-size: 3.2rem;
+  gap: 2rem;
+  background-color: #fff;
+}
+
+button {
+  padding: 1rem;
+  font-size: 3.2rem;
+  border: none;
+  cursor: pointer;
+  margin: 2rem;
+}
